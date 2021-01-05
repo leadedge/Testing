@@ -5,6 +5,8 @@ Spout supports DirectX 11 and OpenGL textures and includes a developer SDK and s
 
 <a target="_blank" href="https://spout.zeal.co/">https://spout.zeal.co/</a>
 
+<a target="_blank" href="https://github.com/leadedge/Testing/blob/master/SPOUTSDK/SpoutGL/Documentation/index.html">Documentation</a>
+
 [Documentation](https://htmlpreview.github.io/?https://github.com/leadedge/Testing/blob/master/SPOUTSDK/SpoutGL/Documentation/index.html)
 
 For general questions please visit the [Spout Discourse group](
