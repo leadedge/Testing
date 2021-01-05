@@ -2,7 +2,7 @@
 
 Spout supports DirectX 11 and OpenGL textures and includes a developer SDK and sample applications. If you are interested in assisting with development, please contact using the email address indicated for this GitHub repository.
 
-[Documentation](https://github.com/leadedge/Testing/raw/master/SPOUTSDK/SpoutGL/Documentation/index.html)
+[Documentation](https://htmlpreview.github.io/?https://github.com/leadedge/Testing/raw/master/SPOUTSDK/SpoutGL/Documentation/index.html)
 
 For general questions please visit the [Spout Discourse group](
 https://spout.discourse.group)
