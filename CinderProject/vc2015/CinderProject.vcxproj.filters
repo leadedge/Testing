@@ -1,0 +1,96 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{EAADA304-359D-4E90-A9F1-4E5FDC3D97B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Spout">
+      <UniqueIdentifier>{3B0D5751-6138-4853-941C-57A1A6B7EA6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Spout\include">
+      <UniqueIdentifier>{1028FBD3-8D12-4AE4-BFFA-32B41EC51E56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\CiSpoutIn.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\CiSpoutOut.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\Spout.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutCommon.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutCopy.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutDirectX.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutFrameCount.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutGL.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutGLDXinterop.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutGLextensions.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutMemoryShare.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutReceiver.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutSDK.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutSender.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutSenderNames.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutSharedMemory.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutUtils.h">
+      <Filter>Blocks\Spout\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\SpoutSenderApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
